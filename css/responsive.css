@@ -1,0 +1,47 @@
+/* Media view */
+
+
+@media only screen and (min-width:500px) {
+    /* For tablets: */
+    nav a {
+      width: 80%;
+      padding: 0;
+      position: relative;
+    }
+    nav {
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width:450px) {
+    /* For mobile phones: */
+    nav {
+      width: 100%;
+      position: relative;
+    }
+  }
+  
+  @media only screen and (min-width:769px) {
+      /* Destop Styles */
+      nav {
+            background: transparent;
+            display: flex;
+            position: relative;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align:center;
+            background-color: rgba(100, 237, 130, 0.425);
+            font-family: monospace;
+            font-style: bold italic;
+      }
+      
+      nav a{
+        
+        text-decoration-color: black;
+        
+      }
+  }
+  

@@ -1,0 +1,16 @@
+
+/* Footer Styles */
+
+footer{
+    clear: both;
+   /* display: flex; /* In line flex */
+    text-align-last: center;
+    font-size: 25px; 
+    font-style: bold;
+    background-color:rgba(100, 237, 130, 0.425) ;
+}
+
+footer p{
+    font-size: 20px; 
+    font-style: bold;
+}
